@@ -1,26 +1,36 @@
 h1 {
   font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  /* font-kerning: auto; */
+  font-stretch: 150%;
 }
-body{
+
+body {
   background: linear-gradient(#615dad, #ffc8da);
   color: white;
   margin-bottom: 0px;
   height: 1000px;
   max-width: 380px;
   margin: auto;
-    }
+}
 
-p{
+p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  line-height: 1.5;
 }
- img{
-  width: 100%;
- }
 
-.picture{
+img {
+  width: 100%;
+  /* border-top-left-radius: 15px 15px; */
+  border-radius: 8px 8px 0 0;
+}
+
+.picture {
   width: 380px;
   margin-bottom: 0px;
+  height: 220px;
 }
 
 .piskvorky {
@@ -40,22 +50,37 @@ p{
   margin-top: 100px;
 }
 
-.rules{
-    background-color:#bb9e1c;
-    width: 380px;
-    height: 30px;
-    margin: 0px;
+.rules {
+  background-color: #1fcca4;
+  width: 380px;
+  height: 30px;
+  margin: 0px;
+  border-top: 1px solid black;
 }
 
-a{
-font-family: Arial, Helvetica, sans-serif;
-color: white;
-text-decoration: none;
+.letsplay {
+  background-color: #0197f6;
+  width: 380px;
+  height: 30px;
+  margin: 0px;
+  border-top: 1px solid black;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  text-align: center;
 }
 
 
-a:hover {
+.rules:hover {
   background: #1cbb96;
   color: white;
 }
 
+.letsplay:hover {
+  background: #0090e9;
+  color: white;
+}
